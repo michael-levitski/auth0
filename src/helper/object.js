@@ -2,8 +2,8 @@
 /* eslint-disable no-restricted-syntax */
 /* eslint-disable guard-for-in */
 
-import assert from './assert';
-import objectAssign from './object-assign';
+import assert from './assert.js';
+import objectAssign from './object-assign.js';
 
 function pick(object, keys) {
   return keys.reduce(function(prev, key) {
