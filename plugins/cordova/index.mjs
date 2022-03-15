@@ -1,5 +1,5 @@
 import version from '../../src/version.js';
-import windowHandler from '../../src/helper/window.s';
+import windowHandler from '../../src/helper/window.js';
 import PluginHandler from './plugin-handler.js';
 
 function CordovaPlugin() {
