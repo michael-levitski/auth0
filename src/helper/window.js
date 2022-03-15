@@ -1,4 +1,4 @@
-import objectHelper from './object';
+import objectHelper from './object.js';
 
 function redirect(url) {
   getWindow().location = url;
