@@ -1,7 +1,7 @@
-import Authentication from './authentication';
-import Management from './management';
-import WebAuth from './web-auth';
-import version from './version';
+import Authentication from './authentication.js';
+import Management from './management.js';
+import WebAuth from './web-auth.js';
+import version from './version.js';
 
 export { Authentication, Management, WebAuth, version };
 
