@@ -1,5 +1,5 @@
-import CordovaPlugin from "../plugins/cordova"
-import auth0 from "../src";
+import CordovaPlugin from "../plugins/cordova/index.mjs"
+import auth0 from "../src/index.js";
 
 var htmlConsole = new HTMLConsole({
     selector: '#console'
