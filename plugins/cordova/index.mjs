@@ -1,6 +1,6 @@
-import version from '../../src/version';
-import windowHandler from '../../src/helper/window';
-import PluginHandler from './plugin-handler';
+import version from '../../src/version.js';
+import windowHandler from '../../src/helper/window.s';
+import PluginHandler from './plugin-handler.js';
 
 function CordovaPlugin() {
   this.webAuth = null;
